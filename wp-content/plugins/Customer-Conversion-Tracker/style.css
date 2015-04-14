@@ -1,0 +1,58 @@
+#poststuff{min-width:100%;padding-top:10px;}
+.left{float:left;width:50%;}
+.right{float:right;width:50%;}
+.chart-legend .highlight_series > strong{position:relative;font-size:14px;display:block;}
+.chart-legend .highlight_series > strong>span{font-size:16px;}
+.postbox.tabs .tab_menu {
+   box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #f1f1f1;
+-webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #f1f1f1;
+-moz-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #f1f1f1;
+-o-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #f1f1f1;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  background:#DDDDDD;
+  border-color:#ececec;
+}
+.postbox.tabs .tab_menu li{
+  color: rgb(85, 85, 85);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  margin:0px;
+  padding: 4px 20px 10px;
+  text-decoration: none;
+}
+.postbox.tabs .tab_menu li.active, .postbox.tabs .tab_menu li:hover {
+  background:white;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  color: rgb(0, 0, 0);
+ box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+-webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+-moz-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+-o-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+}
+.postbox.tabs ul.tab_menu {overflow:hidden;}
+.postbox.tabs ul.tab_menu :before, .postbox.tabs ul.tab_menu :after{border-collapse:collapse;content:"";display:table;}
+#graph_show_hide{font-size:18px;font-weight:bold;text-align:center;padding:10px;cursor:pointer;}
+.chart-legend, .chart-wrapper{margin-top:15px;float:left;min-width:320px;display:block;overflow:hidden;height:auto;background:white;margin-left:20px;}
+.postbox.tabs.legend{float:left;width:auto;}
+.chart-container{text-align:center;width:auto;display:table;margin:0 auto;float:none;}
+.postbox.tabs{overflow:hidden;}
+.purchased{background-repeat:no-repeat;height:150px;width:auto;} 
+.range{float:left;height:65px;width: 99%;}.cart img{float:left;}
+#Graph_menu{background:white;overflow:hidden;}
+#Graph_menu .highlight_series img {
+  float: left;
+  max-width: 100%;
+  width: auto;
+  width: 83px;
+}
+#Graph_menu .highlight_series {
+  text-align: right;
+}
+#Graph_menu .highlight_series > strong {
+  top: -31px;
+}
+.export{float:right;}
